@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:elevation="5dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/date"
+                android:gravity="end"
+                android:textColor="@color/colorPrimary"
+                android:text="01/02/2020"
+                android:textSize="7dp"
+                android:layout_marginRight="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:padding="3dp"
+        android:id="@+id/suggestion_sub_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:text="tesjksjghsdgkjsxcvxcvxcvxvxcvxxv"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+        />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+    <TextView
+        android:id="@+id/suggestion_topic"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="7dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textSize="10dp"
+        android:textColor="#000"
+        android:text="sdfsdfsdfsdfsdfsdggsdgsdgsdgsdgsdgsdgsdgsdgsdgsdgsdgsdggsdgdgdgsdggs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
